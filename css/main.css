@@ -88,6 +88,15 @@ html, body {
     color: #4caf50;
 }
 
+#news a {
+    color: #5d5d5d;
+    text-decoration: none;
+}
+
+#news a:hover {
+    color: #4caf50;
+}
+
 .post {
     color: #5d5d5d;
 }
