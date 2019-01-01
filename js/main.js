@@ -13,7 +13,7 @@ window.onload = () => {
              $("#news").empty();
              preview.forEach(post => {
                  $("#page").prepend(`<div class="preview"><h1><a href="#${post.link}">${post.title}</a></h1><div>${post.preview}</div></div>`);
-                 $('#news').prepend(`<p><a href="#${post.link}">${post.title} - ${post.data}</a></p>`);
+                 $('#news').prepend(`<p><a href="#${post.link}">${post.title} - ${post.date}</a></p>`);
              });
          }
      });
