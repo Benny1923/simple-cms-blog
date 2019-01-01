@@ -49,7 +49,7 @@ html, body {
     border-top: 5px solid #4caf50;
 }
 
-#mainframe > .page {
+#mainframe > #page {
     width: 690px;
     background-color: #f7f7f7;
 }
@@ -77,6 +77,15 @@ html, body {
 
 .preview h1 {
     margin: 0;
+}
+
+.preview > h1 > a {
+    color: #5d5d5d;
+    text-decoration: none;
+}
+
+.preview > h1 > a:hover {
+    color: #4caf50;
 }
 
 .post {
