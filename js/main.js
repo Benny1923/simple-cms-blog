@@ -28,6 +28,8 @@ $(window).on('hashchange', function(){
                 preview.forEach(post => {
                     $("#page").prepend(`<div class="preview"><h1><a href="#${post.link}">${post.title}</a></h1><div>${post.preview}</div></div>`);
                 });
+                $(".nav li").removeClass("active");
+                $(".nav li").eq(0).addClass("active");
                 break;
             case 'about':
                 $.ajax({
@@ -37,7 +39,9 @@ $(window).on('hashchange', function(){
                         $("#page").empty();
                         $("#page").prepend(data);
                     }
-                })
+                });
+                $(".nav li").removeClass("active");
+                $(".nav li").eq(0).addClass("active");
                 break;
             default:
                 $.ajax({
