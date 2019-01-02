@@ -1,11 +1,12 @@
 html, body {
     margin: 0;
-    padding: 0; 
+    padding: 0;
+    font-family: 微軟正黑體;
+    color: #646464;
 }
 .nav {
     width: 100%;
     font-size: 16pt;
-    font-family: 微軟正黑體;
     background-color: #f7f7f7;
 }
 .container {
@@ -107,4 +108,15 @@ html, body {
 
 .post > .content {
     padding-top: 15px;
+}
+
+.post > .content a {
+    color: #5d5d5d;
+    text-decoration: none;
+    border-bottom: 1px dashed #646464;
+}
+
+.post > .content a:hover {
+    color: #4caf50;
+    border-bottom: 1px dashed #4caf50;
 }
