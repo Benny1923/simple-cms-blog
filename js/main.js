@@ -1,9 +1,10 @@
 /* main.js by benny1923 for simple-spa-blog
    created: 2019-01-01
+   update:  2019-01-09 //update hash onload feature
    *pray for my final report*
 */
 var preview;
-window.onload = () => {
+$(document).ready(function() {
      $.ajax({
          url: 'usercontent/preview.json',
          dataType: 'json',
@@ -15,11 +16,15 @@ window.onload = () => {
                  $("#page").prepend(`<div class="preview"><h1><a href="#${post.link}">${post.title}</a></h1><div>${post.preview}</div></div>`);
                  $('#news').prepend(`<p><a href="#${post.link}">${post.title} - ${post.date}</a></p>`);
              });
+             if (window.location.hash) loadpage();
          }
      });
-}
+})
 
-$(window).on('hashchange', function(){
+$(window).on('hashchange', loadpage);
+
+function loadpage(){
+    console.log("triggered");
     try {
         switch (window.location.hash.substr(1)) {
             case '':
@@ -58,4 +63,4 @@ $(window).on('hashchange', function(){
     } catch (error) {
         
     }
-})
+}
