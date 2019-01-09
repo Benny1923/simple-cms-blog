@@ -51,13 +51,13 @@ html, body {
 }
 
 #mainframe > #page {
-    width: 690px;
+    width: 70%;
     background-color: #f7f7f7;
 }
 
 #mainframe > .menu {
-    margin-left: 25px;
-    width: 265px;
+    margin-left: 2%;
+    width: 26%;
     background-color: #f7f7f7;
 }
 
