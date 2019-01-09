@@ -6,7 +6,7 @@
 var preview;
 $(document).ready(function() {
      $.ajax({
-         url: 'usercontent/preview.json',
+         url: 'usercontent/preview.json' + "?time=" + new Date().getTime(),
          dataType: 'json',
          success: function(data){
              preview = data;
@@ -38,7 +38,7 @@ function loadpage(){
                 break;
             case 'about':
                 $.ajax({
-                    url: 'usercontent/about.html',
+                    url: 'usercontent/about.html' + "?time=" + new Date().getTime(),
                     dataType: 'html',
                     success: function (data) {
                         $("#page").empty();
@@ -50,7 +50,7 @@ function loadpage(){
                 break;
             default:
                 $.ajax({
-                    url: 'usercontent/post/' + window.location.hash.substr(1) + '.html',
+                    url: 'usercontent/post/' + window.location.hash.substr(1) + '.html' + "?time=" + new Date().getTime(),
                     dataType: 'html',
                     success: function (data) {
                         $("#page").empty();
