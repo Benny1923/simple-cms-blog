@@ -28,6 +28,10 @@ html, body {
     border-top: 2px solid #00000000;
 }
 
+.nav ul > li:first-child {
+    border-left: 1px solid  #7f7f7f;
+}
+
 .nav ul > li:hover, .nav ul > .active {
     border-top: 2px solid #4caf50;
 }
