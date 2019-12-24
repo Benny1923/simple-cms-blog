@@ -1,0 +1,89 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    font-family: '微軟正黑體', Arial, Helvetica, sans-serif;
+    background-color: #cccccc;
+    height: 100%;
+}
+
+.nav {
+    width: 100%;
+    background-color: #1e1e1e;
+    font-size: 16pt;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav ul > li {
+    background-color: #2d2d2d;
+    float: left;
+}
+
+.nav ul > li a{
+    display: block;
+    color: #ffffff80;
+    text-align: center;
+    padding: 5px 12px;
+    text-decoration: none;
+}
+
+.nav ul > li:hover {
+    background-color: #3d3d3d;
+}
+
+.nav ul > li:hover a {
+    color: #ffffff;
+}
+
+.container {
+    width: 100%;
+    height: calc(100% - 38px);
+}
+
+.container > .menu {
+    width: 10%;
+    min-width: 200px;
+    background-color: #2d2d2d;
+    height: 100%;
+    float: left;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul > li a {
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    color: #ffffff80;
+    text-decoration: none;
+}
+
+.menu ul > li:hover {
+    background-color: #3d3d3d;
+}
+
+.menu ul > li:hover a, .menu ul > li.active a{
+    color: #ffffff;
+}
+
+.menu ul > li:hover, .menu ul > li.active {
+    background-color: #3d3d3d;
+}
+
+.menu ul > li:hover a {
+    color: #ffffff;
+}
+
+.container > .content {
+    float: left;
+}
