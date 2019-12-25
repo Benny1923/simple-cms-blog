@@ -43,6 +43,7 @@ html,body {
 .container {
     width: 100%;
     height: calc(100% - 38px);
+    /*display:table;*/
 }
 
 .container > .menu {
@@ -51,6 +52,7 @@ html,body {
     background-color: #2d2d2d;
     height: 100%;
     float: left;
+    /*display:table-cell;*/
 }
 
 .menu ul {
@@ -85,5 +87,8 @@ html,body {
 }
 
 .container > .content {
-    float: left;
+    /*width: 100%;*/
+    overflow: hidden;
+    /*display:table-cell;*/
+    /*float: left;*/
 }
