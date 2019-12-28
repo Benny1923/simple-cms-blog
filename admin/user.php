@@ -1,10 +1,11 @@
+<?php require_once("../includes/usercheck.php"); ?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>管理平台</title>
+    <title>使用者設定 - 管理平台</title>
     <link rel="stylesheet" href="/css/frame.css">
 </head>
 <body>
@@ -24,9 +25,7 @@
             </ul>
         </div>
         <div class="content">
-            ${user}你好!<br>
-            歡迎使用簡易部落格系統<br>
-            你可以使用左邊導覽目錄前往功能
+            <?php require_once("../includes/userset.php"); ?>
         </div>
         <div style="clear:both;"></div>
     </div>

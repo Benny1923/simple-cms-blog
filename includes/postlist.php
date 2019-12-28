@@ -30,8 +30,17 @@ td.manage {
     border-bottom: #cccccc 1px solid;
     padding-bottom: 3px;
 }
+h2 > a {
+    float: right;
+    background-color: #ffffff80;
+    font-size: 17px;
+    padding: 3px 5px;
+    text-decoration: none;
+    color: #000;
+}
 </style>
 <div class="plistf">
+    <h2>文章管理: <a href="editor.php?mode=newpost">新增文章</a></h2>
     <table>
         <tr>
             <th class="title">標題</th>

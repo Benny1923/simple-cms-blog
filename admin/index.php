@@ -1,3 +1,4 @@
+<?php require_once("../includes/usercheck.php"); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,8 +25,8 @@
             </ul>
         </div>
         <div class="content">
-            ${user}你好!<br>
-            歡迎使用簡易部落格系統<br>
+            <?php echo $_SESSION['nickname']; ?>你好!<br>
+            歡迎使用簡易部落格管理系統<br>
             你可以使用左邊導覽目錄前往功能
         </div>
         <div style="clear:both;"></div>

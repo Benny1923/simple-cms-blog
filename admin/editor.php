@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>圖片管理 - 管理平台</title>
+    <title>管理平台</title>
     <link rel="stylesheet" href="/css/frame.css">
 </head>
 <body>
@@ -20,12 +20,12 @@
         <div class="menu">
             <ul>
                 <li><a href="post.php">文章管理</a></li>
-                <li class="active"><a href="image.php">圖片管理</a></li>
+                <li><a href="image.php">圖片管理</a></li>
                 <li><a href="user.php">使用者設定</a></li>
             </ul>
         </div>
         <div class="content">
-            <?php require_once("../includes/imglist.php"); ?>
+            <?php require_once("../includes/edit.php"); ?>
         </div>
         <div style="clear:both;"></div>
     </div>

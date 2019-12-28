@@ -32,7 +32,8 @@
             <ul>
                 <li class="active"><a href="#home">首頁</a></li>
                 <li><a href="#about">關於</a></li>
-                <li style="display:none;"><a href="https://github.com/benny1923/simple-spa-blog/">Github</a></li>
+                <li style="display:none;"><a href="https://github.com/benny1923/simple-cms-blog/">Github</a></li>
+                <li style="float:right; border-left: black 1px solid;"><a href="login.php">登入</a></li>
             </ul>
         </div>
     </div>

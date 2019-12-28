@@ -1,1 +1,1 @@
-You pick the wrong path fool.
+You pick the wrong place fool.

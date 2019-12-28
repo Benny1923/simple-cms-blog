@@ -1,10 +1,11 @@
+<?php require_once("../includes/usercheck.php"); ?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>管理平台</title>
+    <title>文章列表 - 管理平台</title>
     <link rel="stylesheet" href="/css/frame.css">
 </head>
 <body>
