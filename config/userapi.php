@@ -34,6 +34,6 @@ if (isset($_POST['set'])) {
     }
 
     echo "<script>window.location.replace('../admin/user.php".$arg."');</script>";
-} else die("not target set.");
+} else die("no target set.");
 
 ?>

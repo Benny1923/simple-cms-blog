@@ -13,6 +13,7 @@
         <div class="container">
             <ul>
                 <li class="active"><a href="../index.php">回到首頁</a></li>
+                <li style="float:right;" class="active"><a href="../logout.php">登出</a></li>
             </ul>
         </div>
     </div>
